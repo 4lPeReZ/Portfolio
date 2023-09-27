@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my portfolio project, created with TSC + REACT + MATERIAL UI
+This is my portfolio project, created with JS + REACT + MATERIAL UI
 
 ## Table of Contents
 
