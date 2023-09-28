@@ -1,5 +1,5 @@
 import React from 'react'
-/* import HeroBgAnimation from '../HeroBgAnimation' */
+import HeroBgAnimation from '../HeroBackground';
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton } from './HeroStyledComponent'
 import HeroImg from '../../Images/me.jpeg'
 import Typewriter from 'typewriter-effect';
@@ -9,9 +9,9 @@ const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
-{/*                 <HeroBg>
+                <HeroBg>
                     <HeroBgAnimation />
-                </HeroBg> */}
+                </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <span style={{ color: '#854CE6', fontWeight: 'bold' }}>{Bio.name}</span></Title>
