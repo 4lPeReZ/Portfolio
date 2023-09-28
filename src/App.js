@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/HeroSection';
 import Skills from './Components/Skills';
 import Education from './Components/Education';
+import Experience from './Components/Experience';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
@@ -28,6 +29,7 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
+            <Experience />
           </Wrapper>
           <Wrapper>
             <Education />

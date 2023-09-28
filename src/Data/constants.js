@@ -162,3 +162,42 @@ export const skills = [
         ],
     },
 ];
+
+export const experiences = [
+    {
+        id: 0,
+        img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.-pC4AYeIknOnm9iHgiVC4AHaFL%26pid%3DApi&f=1&ipt=264405d3d0299a8d07eca713545be833f74ae9b6c1fc110054570809e4d6f1c1&ipo=images",
+        role: "Full-Stack Developer",
+        company: "Moyseafood S.A.",
+        date: "January 2023 - July 2023",
+        desc: "Creation of new features for the production department's software to ensure the proper tracking and optimization of the product and manufacturing process. Development and design of new features to streamline the selection processes and job postings for the HR department.",
+        skills: [
+            "PHP",
+            "Laravel",
+            "JavaScript",
+            "React Js",
+            "HeidiSQL",
+            "Bootstrap",
+            "Ant Design",
+            "Git",
+        ],
+    },    
+    {
+        id: 1,
+        img: "data:image/png;base64,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",
+        role: "Frontend Developer",
+        company: "Libnamic",
+        date: "March 2022 - June 2022",
+        desc: "Development of new features for the customer dashboard to enhance communication between the company and its clients",
+        skills: [
+            "JavaScript",
+            "Vue Js",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Git",
+            "Postman",
+            "Docker",
+        ],
+    },
+];
