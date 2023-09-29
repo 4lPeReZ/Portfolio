@@ -13,7 +13,7 @@ export const Bio = {
     resume:
         "https://drive.google.com/file/d/1Zcung2OviIyzcHkWsM-crYhiWCXLwkSR/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/álvaro-pérez-rey-6337a6150/",
-    twitter: "https://twitter.com/4lPeReZ",
+    twitter: "https://twitter.com/",
     insta: "https://www.instagram.com/4lPeReZ/",
     facebook: "https://www.facebook.com/",
 };
