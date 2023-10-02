@@ -24,7 +24,7 @@ function Footer() {
             <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
           </SocialMediaIcons>
           <Copyright>
-            &copy; 2023 - All rights reserved.
+            2023 - 4lPeReZ.
           </Copyright>
   
         </FooterWrapper>
