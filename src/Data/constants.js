@@ -203,7 +203,7 @@ export const experiences = [
 ];
 
 export const projects = [
-    /* {
+/*     {
       id: 9,
       title: "Trackify",
       date: "Jun 2023 - Jul 2023",
@@ -227,20 +227,20 @@ export const projects = [
       category: "web app",
       github: "https://github.com/rishavchanda/Trackify",
       webapp: "https://trackify.duckdns.org",
-    },
+    }, */
     {
       id: 0,
-      title: "Podstream",
-      date: "Apr 2023 - May 2023",
+      title: "Pokedex App",
+      date: "Sept 2023 - Oct 2023",
       description:
-        "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+        "I developed a responsive application that enables users to search for their favorite Pokémon types. I created a responsive user interface using React JS, TypeScript, and Sass.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        "https://raw.githubusercontent.com/4lPeReZ/pokedex-ts-react/main/src/Assets/home.PNG",
+      tags: ["React Js", "TypeScipt", "Sass"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-      member: [
+      github: "https://github.com/4lPeReZ/pokedex-ts-react",
+      webapp: "https://pokedex-ts-react-4lperez.netlify.app/",
+/*       member: [
         {
           name: "Rishav Chanda",
           img: "https://avatars.githubusercontent.com/u/64485885?v=4",
@@ -253,9 +253,9 @@ export const projects = [
           linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
           github: "https://github.com/upasana0710",
         },
-      ],
+      ], */
     },
-    {
+/*     {
       id: 1,
       title: "Vexa",
       date: "Oct 2022 - Present",
@@ -341,7 +341,7 @@ export const projects = [
       github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
       webapp: "https://whatsapp-clone-rishav.web.app",
     }, */
-    {
+/*     {
         id: 5,
         title: "Todo Web App",
         date: "Jun 2021",
@@ -353,7 +353,7 @@ export const projects = [
         category: "web app",
         github: "https://github.com/rishavchanda/Todo-Web-App",
         webapp: "https://rishav-react-todo.netlify.app/",
-    },
+    }, */
     /* {
       id: 6,
       title: "Breaking Bad",
