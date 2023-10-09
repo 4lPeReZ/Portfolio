@@ -273,34 +273,20 @@ export const projects = [
       github: "https://github.com/4lPeReZ/todo-mern",
       webapp: "https://todo-mern-4lperez.netlify.app/",
     },
-    /*
     {
       id: 2,
-      title: "Brain Tumor Detection",
-      date: "Jan 2023 - Mar 2023",
+      title: "Weather App",
+      date: "Oct 2023",
       description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+        "Weather app built with Vanilla JavaScript, HTML, CSS",
       image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+        "https://raw.githubusercontent.com/4lPeReZ/weather-app/main/home.PNG",
+      tags: ["JavaScript", "HTML", "CSS"],
+      category: "web app",
+      github: "https://github.com/4lPeReZ/weather-app",
+      webapp: "https://weather-app-vanillajs-4lperez.netlify.app/",
     },
+    /*
     {
       id: 3,
       title: "Buckoid",
