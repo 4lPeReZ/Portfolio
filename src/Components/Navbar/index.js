@@ -1,7 +1,6 @@
 import React from "react";
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { useTheme } from 'styled-components';
-import { Close, CloseRounded } from '@mui/icons-material';
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../Data/constants';
@@ -23,15 +22,12 @@ const Navbar = () => {
                     }} />
                 </MobileIcon>
                 <NavItems>
-                    <NavLink href="#about">About</NavLink>
-                    <NavLink href='#skills'>Skills</NavLink>
-                    <NavLink href='#experience'>Experience</NavLink>
-                    <NavLink href='#projects'>Projects</NavLink>
-                    <NavLink href='#education'>Education</NavLink>
+                    <NavLink href="#about">Inicio</NavLink>
+                    <NavLink href='#experience'>Experiencia</NavLink>
+                    <NavLink href='#projects'>Proyectos</NavLink>
+                    <NavLink href='#skills'>Tecnologías</NavLink>
+                    <NavLink href='#education'>Educación</NavLink>
                 </NavItems>
-                <ButtonContainer>
-                    <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
-                </ButtonContainer>
                 {
                     isOpen &&
                     <MobileMenu isOpen={isOpen}>

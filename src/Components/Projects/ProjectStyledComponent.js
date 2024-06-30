@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-/* import _default from '../../Themes/default'; */
 
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -48,6 +47,7 @@ export const Desc = styled.div`
         margin-top: 12px;
         font-size: 16px;
     }
+    padding-bottom: 1rem;
 `;
 
 export const ToggleButtonGroup = styled.div`

@@ -1,30 +1,18 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import { Bio } from '../../Data/constants';
-import { FooterContainer, FooterWrapper, Logo, Nav, NavLink, SocialMediaIcons, SocialMediaIcon, Copyright } from './FooterStyledComponent';
+import { FooterContainer, FooterWrapper, Nav, NavLink, Copyright } from './FooterStyledComponent';
 
 function Footer() {
     return (
       <FooterContainer>
         <FooterWrapper>
-          <Logo>4lPeReZ</Logo>
           <Nav>
-            <NavLink href="#about">About</NavLink>
-            <NavLink href="#skills">Skills</NavLink>
-            <NavLink href="#experience">Experience</NavLink>
-            <NavLink href="#projects">Projects</NavLink>
-            <NavLink href="#education">Education</NavLink>
+            <NavLink href="#about">Inicio</NavLink>
+            <NavLink href='#experience'>Experiencia</NavLink>
+            <NavLink href='#projects'>Proyectos</NavLink>
+            <NavLink href='#skills'>Tecnologías</NavLink>
+            <NavLink href='#education'>Educación</NavLink>
           </Nav>
-          <SocialMediaIcons>
-            <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-            <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-            <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-            <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          </SocialMediaIcons>
           <Copyright>
-            2023 - 4lPeReZ.
+            2023 - 4lPeReZ
           </Copyright>
   
         </FooterWrapper>

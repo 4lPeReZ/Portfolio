@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../Themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -153,7 +152,7 @@ export const Span = styled.span`
 export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
-  margin-bottom: 42px;
+  margin-bottom: 12px;
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {
@@ -200,4 +199,20 @@ export const ResumeButton = styled.a`
         font-size: 18px;
     } 
 
+`;
+
+export const SocialMediaIcons = styled.div`
+  display: flex;
+  margin-top: 1rem;
+`;
+
+export const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0px 1rem 0px 0px;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
 `;

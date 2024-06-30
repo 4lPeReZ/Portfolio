@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './Utils/Themes.js'
 import Navbar from './Components/Navbar';
@@ -9,7 +9,6 @@ import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import ProjectDetails from './Components/ProjectDetails';
-import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -26,7 +25,7 @@ const Wrapper = styled.div`
 `
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
@@ -35,13 +34,12 @@ function App() {
         <Body>
           <Hero />
           <Wrapper>
-            <Skills />
             <Experience />
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Skills />
           <Wrapper>
             <Education />
-            <Contact />
           </Wrapper>
           <Footer />
           {openModal.state &&
