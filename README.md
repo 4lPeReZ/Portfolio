@@ -1,6 +1,6 @@
 # Mi Portafolio
 
-Este es mi proyecto de portafolio, creado con JS + REACT + MATERIAL UI
+Este es mi portfolio, creado con JS + REACT + MATERIAL UI
 
 ## Tabla de Contenidos
 
@@ -14,28 +14,27 @@ Este es mi proyecto de portafolio, creado con JS + REACT + MATERIAL UI
 
 ## Introducción
 
-Mi Portafolio es una aplicación React.js que sirve como un portafolio en línea para mostrar mi trabajo, habilidades y logros. Proporciona una visión general de mi trayectoria, muestra mis proyectos y ofrece una forma de contactarme.
+Creada con React, esta aplicación sirve como un portfolio donde poder mostrar una visión general de mi experiencia, proyectos y habilidades.
 
 ## Características
 
-- **Sobre Mí**: Una visión general de mi trayectoria, habilidades y experiencias.
-- **Proyectos**: Una colección de mis proyectos destacados con descripciones, capturas de pantalla y enlaces.
+- **Inicio**: Una visión general de mi experiencia como desarrollador con enlaces a mis redes sociales.
+- **Proyectos**: Una lista de mis proyectos destacados con descripciones, capturas de pantalla y enlaces.
 - **Habilidades**: Una lista de mis habilidades técnicas y competencias.
 - **Currículum**: Un enlace para descargar mi currículum.
-- **Contacto**: Un formulario para enviarme mensajes o consultas.
 
 ## Tecnologías Utilizadas
 
-- **React.js**: Una biblioteca de JavaScript para construir interfaces de usuario.
+- **React**: Una biblioteca de JavaScript para construir interfaces de usuario.
 - **HTML5 & CSS3**: Lenguajes de marcado y estilos para construir páginas web.
 - **JavaScript**: Un lenguaje de programación para añadir interactividad a las aplicaciones web.
 - **Styled-Components**: Un marco de CSS para crear diseños responsivos y orientados a dispositivos móviles.
 - **Git**: Un sistema de control de versiones para rastrear cambios y colaborar en proyectos.
-- **GitHub Pages**: Una plataforma para alojar y desplegar aplicaciones web.
+- **Netlify**: Una plataforma para alojar y desplegar aplicaciones web.
 
 ## Instalación
 
-Para ejecutar este portafolio localmente, sigue estos pasos:
+Para ejecutar este portfolio localmente, sigue estos pasos:
 
 1. Clona el repositorio: `git clone https://github.com/4lperez/portfolio.git`
 2. Navega al directorio del proyecto: `cd portfolio`
@@ -45,11 +44,11 @@ Para ejecutar este portafolio localmente, sigue estos pasos:
 
 ## Uso
 
-Después de instalar y ejecutar el proyecto localmente, puedes navegar por las diferentes secciones del portafolio utilizando el menú de navegación. Explora la sección Sobre Mí para conocer más sobre mi trayectoria y habilidades. Visita la sección Proyectos para ver información detallada sobre mis proyectos, incluidas descripciones y capturas de pantalla. Usa la sección Contacto para enviarme un mensaje o consulta.
+Después de instalar y ejecutar el proyecto localmente, puedes navegar por las diferentes secciones del portfolio utilizando el menú de navegación. Explora la sección Inicio para conocer más sobre mi trayectoria y habilidades. Visita la sección Proyectos para ver información detallada sobre mis proyectos, incluidas descripciones y capturas de pantalla. Usa la sección Contacto para enviarme un mensaje o consulta.
 
-## Contribuciones
+## Aportaciones
 
-¡Las contribuciones son bienvenidas! Si deseas contribuir a Mi Portafolio, sigue estos pasos:
+¡Las aportaciones son bienvenidas! Si deseas contribuir a mi portfolio, sigue estos pasos:
 
 1. Haz un fork del repositorio.
 2. Crea una nueva rama para tu característica o corrección de errores: `git checkout -b mi-característica`

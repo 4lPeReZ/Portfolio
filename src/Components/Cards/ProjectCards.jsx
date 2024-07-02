@@ -58,8 +58,8 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    color: rgb(189, 149, 255);
+    background-color: rgba(255, 255, 255, 0.08);
     padding: 2px 8px;
     border-radius: 10px;
 `
@@ -88,7 +88,7 @@ const Date = styled.div`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
+    color: rgba(215, 215, 215, 0.6);
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
@@ -97,7 +97,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: rgba(215, 215, 215, 0.6);
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;

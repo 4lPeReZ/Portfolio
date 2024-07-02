@@ -16,7 +16,7 @@ const index = () => {
             <Wrapper>
                 <Title>Educación</Title>
                 <Desc>
-                    My education has been a journey of self-discovery and growth. My educational details are as follows.
+                    Mi experiencia academica, estos son los estudios que he realizado a lo largo de mi carrera.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
@@ -32,7 +32,6 @@ const index = () => {
                             </TimelineItem>
                         ))}
                     </Timeline>
-
                 </TimelineSection>
             </Wrapper>
         </Container>

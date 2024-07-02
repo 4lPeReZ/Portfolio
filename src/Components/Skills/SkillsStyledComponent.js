@@ -77,7 +77,7 @@ export const Skill = styled.div`
 export const SkillTitle = styled.h2`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  color: rgb(244, 238, 238);
   margin-bottom: 20px;
   text-align: center;
 `
@@ -93,7 +93,7 @@ export const SkillList = styled.div`
 export const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
+  color: rgb(244, 238, 238);
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
   border-radius: 12px;
   padding: 12px 16px;

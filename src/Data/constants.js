@@ -16,7 +16,7 @@ export const Bio = {
 
 export const skills = [
     {
-        title: "Frontend",
+        title: "FrontEnd",
         skills: [
             {
                 name: "React",
@@ -55,7 +55,7 @@ export const skills = [
         ],
     },
     {
-        title: "Backend",
+        title: "BackEnd",
         skills: [
             {
                 name: "Node",
@@ -188,49 +188,49 @@ export const experiences = [
 
 export const projects = [
     {
-      id: 0,
-      title: "Pokedex App",
-      date: "Sept 2023 - Oct 2023",
-      description:
-        "I developed a responsive application that enables users to search for their favorite Pokémon types. I created a responsive user interface using React JS, TypeScript, and Sass.",
-      image:
+        id: 0,
+        title: "Pokedex App",
+        date: "Sept 2023 - Oct 2023",
+        description:
+        "Aplicación responsive que permite a los usuarios buscar sus tipos de Pokémon favoritos utilizando React, TypeScript y Sass.",
+        image:
         "https://raw.githubusercontent.com/4lPeReZ/pokedex-ts-react/main/src/Assets/home.PNG",
-      tags: ["React Js", "TypeScipt", "Sass"],
-      category: "web app",
-      github: "https://github.com/4lPeReZ/pokedex-ts-react",
-      webapp: "https://pokedex-ts-react-4lperez.netlify.app/",
+        tags: ["React", "TypeScript", "Sass"],
+        category: "web app",
+        github: "https://github.com/4lPeReZ/pokedex-ts-react",
+        webapp: "https://pokedex-ts-react-4lperez.netlify.app/",
     },
     {
-      id: 1,
-      title: "To Do App",
-      date: "Oct 2023",
-      description:
-        "To-Do List app built with the MERN stack",
-      image:
-        "https://raw.githubusercontent.com/4lPeReZ/todo-mern/main/frontend/public/home.PNG",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-      ],
-      category: "web app",
-      github: "https://github.com/4lPeReZ/todo-mern",
-      webapp: "https://todo-mern-4lperez.netlify.app/",
+        id: 1,
+        title: "Weather App",
+        date: "Oct 2023",
+        description:
+        "Aplicación sobre el pronóstico del tiempo desarrollada con con JavaScript, HTML y CSS.",
+        image:
+        "https://raw.githubusercontent.com/4lPeReZ/weather-app/382317bb2211538b181d185c46ccf64c2212f149/home.PNG",
+        tags: ["JavaScript", "HTML", "CSS"],
+        category: "web app",
+        github: "https://github.com/4lPeReZ/weather-app",
+        webapp: "https://weather-app-vanillajs-4lperez.netlify.app/",
     },
-    {
-      id: 2,
-      title: "Weather App",
-      date: "Oct 2023",
-      description:
-        "Weather app built with Vanilla JavaScript, HTML, CSS",
-      image:
-        "https://raw.githubusercontent.com/4lPeReZ/weather-app/main/home.PNG",
-      tags: ["JavaScript", "HTML", "CSS"],
-      category: "web app",
-      github: "https://github.com/4lPeReZ/weather-app",
-      webapp: "https://weather-app-vanillajs-4lperez.netlify.app/",
-    },
+    // {
+    //     id: 2,
+    //     title: "To Do App",
+    //     date: "Oct 2023",
+    //     description:
+    //       "To-Do List desarrollado con el stack MERN",
+    //     image:
+    //       "https://raw.githubusercontent.com/4lPeReZ/todo-mern/main/frontend/public/home.PNG",
+    //     tags: [
+    //       "React",
+    //       "Mongo DB",
+    //       "Node",
+    //       "Express",
+    //     ],
+    //     category: "web app",
+    //     github: "https://github.com/4lPeReZ/todo-mern",
+    //     webapp: "https://todo-mern-4lperez.netlify.app/",
+    // },
 ];
 
 export const education = [
