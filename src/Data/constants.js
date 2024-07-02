@@ -213,6 +213,19 @@ export const projects = [
         github: "https://github.com/4lPeReZ/weather-app",
         webapp: "https://weather-app-vanillajs-4lperez.netlify.app/",
     },
+    {
+        id: 2,
+        title: "Image Search App",
+        date: "Oct 2023",
+        description:
+          "Aplicación de búsqueda de imágenes utilizando la API de Unsplash y desarrollada con JavaScript, HTML y CSS.",
+        image:
+          "https://raw.githubusercontent.com/4lPeReZ/image-search-app/main/home.PNG",
+        tags: ["JavaScript", "HTML", "CSS"],
+        category: "web app",
+        github: "https://github.com/4lPeReZ/image-search-app",
+        webapp: "https://images-search-app-4lperez.netlify.app/",
+    },
     // {
     //     id: 2,
     //     title: "To Do App",
