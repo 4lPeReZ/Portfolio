@@ -189,6 +189,19 @@ export const experiences = [
 export const projects = [
     {
         id: 0,
+        title: "URL Shortener App",
+        date: "Jul 2024 -  Jul 2024",
+        description:
+        "Linkly es una aplicación de acortamiento de URLs que permite a los usuarios acortar enlaces largos, gestionar sus enlaces acortados utilizando React, JS, Express, Node, Mongo DB y Tailwind CSS.",
+        image:
+        "https://raw.githubusercontent.com/4lPeReZ/front_urlshortener/main/public/site.PNG",
+        tags: ["React", "JavaScript", "Express", "Node", "Mongo DB", "Tailwind CSS"],
+        category: "web app",
+        github: "https://github.com/4lPeReZ/front_urlshortener",
+        webapp: "https://linkly-urlshortener-4lperez.netlify.app/",
+    },
+    {
+        id: 1,
         title: "Pokedex App",
         date: "Sept 2023 - Oct 2023",
         description:
@@ -201,7 +214,7 @@ export const projects = [
         webapp: "https://pokedex-ts-react-4lperez.netlify.app/",
     },
     {
-        id: 1,
+        id: 2,
         title: "Weather App",
         date: "Oct 2023",
         description:
@@ -214,7 +227,7 @@ export const projects = [
         webapp: "https://weather-app-vanillajs-4lperez.netlify.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Image Search App",
         date: "Oct 2023",
         description:
